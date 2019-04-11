@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function swap(a, b) {
+            let tg;
+            tg = a;
+            a = b;
+            b = tg;
+            document.write('<br>Giá trị sau khi đổi chỗ là: '+a+' và ' +b);
+        }
+        let a = parseInt(prompt('Nhập số đầu tiên'));
+        let b = parseInt(prompt('Nhập số thứ hai'));
+        document.write('Giá trị khi chưa đổi chỗ là: '+a+' và '+b)
+        swap(a,b);
+    </script>
+</body>
+</html>
